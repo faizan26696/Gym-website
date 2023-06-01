@@ -1,0 +1,122 @@
+.main_container img {
+  max-width: 100%;
+  position: relative;
+  min-width: 100%;
+}
+
+.heading {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  font-family: cursive;
+}
+.heading h1,
+.heading p {
+  text-align: center;
+}
+.heading h1 {
+  font-size: 4em;
+  font-weight: 500;
+  margin-bottom: 0;
+  background: #ff0000;
+  background: linear-gradient(to left, #ff0000 0%, #000000 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.heading p {
+  margin-top: 1rem;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.wrap h3 {
+  color: black;
+}
+.button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: orangered;
+  color: white;
+}
+
+.email {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.password {
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+
+
+/* ++++++++++ Responsive +++++++++++ */
+
+/* ============ Phone ============= */
+
+@media (max-width: 500px) {
+  .heading {
+    top: 16%;
+  }
+  .heading h1 {
+    font-size: 25px;
+  }
+  .heading p {
+    font-size: 12px;
+  }
+  .wrap{
+    height: 57vh;
+  }
+  .wrap h3{
+    margin: 1rem 0;
+    color: grey;
+    font-size: 2rem;
+  }
+  .wrap p{
+    margin: 1rem 0;
+  }
+}
+
+/* ============ Tablet ============= */
+@media (max-width: 900px) {
+  .heading {
+    top: 18%;
+  }
+  .wrap{
+    height: 57vh;
+  }
+  .wrap h3{
+    margin: 1rem 0;
+    color: grey;
+    font-size: 4rem;
+  }
+  .wrap p{
+    margin: 1rem 0;
+  }
+  .button {
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .email {
+    height: 1.5rem ;
+    width: 15rem;
+  }
+  .password {
+    height: 1.5rem ;
+    width: 15rem;
+  }
+}

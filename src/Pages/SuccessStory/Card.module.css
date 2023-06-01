@@ -1,0 +1,262 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  color: rgb(104, 62, 62);
+  display: flex;
+  flex-wrap: wrap;
+}
+.para {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  font-size: medium;
+}
+.container {
+  width: 19%;
+}
+.content{
+    margin: 2rem 0;
+}
+.main {
+  color: rgb(104, 62, 62);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: black;
+}
+.para {
+  text-align: center;
+  margin: 1rem;
+  font-weight: 100;
+  color: burlywood;
+}
+.container {
+  width: 20%;
+
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  box-shadow: 5px 3px 5px black;
+  margin: 20px;
+  background-color: rgb(65, 39, 38);
+  border-style: none;
+  border-radius: 2px;
+  box-sizing: border-box;
+
+  padding-left: 5px;
+}
+
+.image img {
+  width: 235px;
+
+}
+
+.image img {
+  width: 100%;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  border: 1px solid black;
+  font-size: medium;
+  border-style: none;
+  background-color: rgb(117, 80, 10);
+  border-radius: 2px;
+  margin-top: -25px;
+  color: rgb(241, 241, 194);
+
+  box-shadow: 2px 3px 5px 2px;
+
+  box-shadow: 0 0 10px grey;
+
+}
+.card_title {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  color: aliceblue;
+}
+.description {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-size: 12px;
+}
+.story {
+
+  align-items: center;
+  margin-left: -3px;
+  padding: 5px 5px 5px 5px;
+  font-size: larger;
+  width: 15rem;
+  box-shadow: 2px 3px 5px 2px;
+  border-radius: 5px;
+  background-color: rgb(243, 185, 185);
+
+  display: block;
+  margin: auto;
+  padding: 5px;
+  font-size: 20px;
+  width: 79%;
+  box-shadow: 0 0 10px rgb(189, 66, 87);
+  border-radius: 5px;
+  background-color: rgb(243, 185, 185);
+  cursor: pointer;
+
+}
+
+.before {
+  border: 1px solid black;
+  font-size: medium;
+  border-style: none;
+  background-color: rgb(117, 80, 10);
+  border-radius: 2px;
+  width: 3rem;
+
+
+  color: rgb(241, 241, 194);
+  box-shadow: 2px 3px 5px 2px;
+}
+.after {
+  border: 1px solid black;
+  font-size: medium;
+  border-style: none;
+  background-color: rgb(117, 80, 10);
+  border-radius: 2px;
+  width: 3rem;
+  color: rgb(241, 241, 194);
+  box-shadow: 2px 3px 5px 2px;
+}
+.mainBody {
+  border: 1px solid black;
+  border-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  height: 50%;
+  padding-left: 80px;
+  background-color: white;
+  box-shadow: 5px 3px 5px 2px;
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .main {
+    display: block;
+    margin-left: -1rem;
+  }
+
+  .container {
+    width: 88%;
+    margin-left: 8px;
+
+  color: rgb(241, 241, 194);
+  box-shadow:  0 0 10px yellow;
+}
+.after {
+  border: 1px solid black;
+  font-size: medium;
+  border-style: none;
+  background-color: rgb(117, 80, 10);
+  border-radius: 2px;
+  width: 3rem;
+  color: rgb(241, 241, 194);
+  box-shadow: 0 0 10px yellow;
+}
+.mainBody {
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  height: 50%;
+  padding-left: 80px;
+  background-color: white;
+  box-shadow: 0 0 10px gray;
+  width: 100%;
+}}
+
+
+@media (max-width: 500px) {
+
+  .main{
+    font-size: 1rem;
+    margin-top: 1.5rem;
+  }
+  .para{
+    font-size: 1rem;
+    color: rgb(218, 135, 26);
+  }
+  .container {
+    width: 88%;
+    margin-left: 8px;
+    padding-left: 6px;
+
+  }
+
+  .image img {
+    width: 100%;
+    margin-left: 0rem;
+  }
+
+  .button {
+    margin-top: 10px;
+  }
+
+  .mainBody {
+    padding-left: 20px;
+  }
+  .story {
+    margin-left: 52px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main h1 {
+    margin-left: 3rem;
+  }
+  .para {
+    margin-left: 2rem;
+    margin-right: 3rem;
+  }
+
+  .container {
+    margin: 10px;
+    width: 40%;
+  }
+
+  .image img {
+    width: 100%;
+  }
+
+  .button {
+    margin-top: 10px;
+  }
+  .story {
+    margin-left: 17px;
+  }
+  .image img {
+    width: 100%;
+    margin-left: -0.5 rem;
+  }
+  .mainBody {
+    width: 100vw;
+
+  }
+  .mainBody {
+    padding-left: 20px;
+  }
+  .card_title h3 {
+    font-size: 2rem;
+  }
+  .story {
+    font-size: 1rem;
+
+  }
+}

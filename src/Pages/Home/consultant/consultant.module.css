@@ -1,0 +1,170 @@
+.main_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 50px 0;
+  background-color: rgb(214, 215, 216);
+}
+
+.left_container {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  width: 47%;
+  margin-left: 10px;
+  box-shadow: 5px 5px 10px grey;
+}
+.left_container img {
+  padding-right: 10px;
+  padding-top: 8px;
+}
+.left_container h1 {
+  padding: 20px 30px;
+  font-size: 3.4rem;
+  color: grey;
+}
+.left_container span {
+  color: red;
+}
+.left_container strong {
+  color: black;
+}
+
+.right_container {
+  display: flex;
+  background-color: white;
+  width: 48%;
+  margin-right: 10px;
+  box-shadow: 5px 5px 10px grey;
+}
+.right_sub {
+  width: 100%;
+}
+.right_sub h1 {
+  text-align: left;
+  font-weight: 900;
+  font-size: 3rem;
+  color: grey;
+}
+.right_sub span {
+  color: red;
+}
+.right_sub p {
+  padding-top: 15px;
+  text-align: left;
+  padding-left: 5px;
+  font-size: 2rem;
+  color: grey;
+}
+.right_sub h2 {
+  color: red;
+  font-size: 2.2rem;
+  padding-top: 1rem;
+}
+
+/* ++++++++++ Responsive +++++++++++ */
+
+/* ============ Phone ============= */
+
+@media (max-width: 500px) {
+  .main_container {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5rem;
+  }
+  .left_container {
+    box-sizing: border-box;
+    display: flex;
+    width: 50%;
+    margin: 20px 15px;
+  }
+  .left_container img {
+    width: 100px;
+  }
+  .left_container h1 {
+    margin-right: 0px;
+  }
+  .right_container {
+    box-sizing: border-box;
+    width: 90%;
+    margin-left: 25px;
+  }
+  .right_sub {
+    margin-right: 25px;
+  }
+  .right_sub h1,
+  .right_sub h2 {
+    text-align: center;
+    font-size: 26px;
+  }
+  .right_sub p {
+    text-align: center;
+    font-size: 10px;
+  }
+  .image_right img {
+    height: 16rem;
+    padding-top: 28px;
+    width: 5rem;
+  }
+}
+
+/* ============ Tablet ============= */
+@media (max-width: 900px) {
+  .main_container {
+    display: block;
+    width: 100%;
+  }
+  .left_container {
+    box-sizing: border-box;
+    width: 90%;
+    height: 45%;
+    margin: 50px 25px;
+  }
+  .left_container h1 {
+    font-size: 43x;
+    padding-right: 0px;
+  }
+  .left_container img {
+    margin-right: 1rem;
+  }
+  .right_container {
+    box-sizing: border-box;
+    width: 90%;
+    margin-left: 25px;
+  }
+  .right_sub {
+    margin-right: 25px;
+    padding: 20px;
+  }
+  .right_sub h1,
+  .right_sub h2 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .right_sub p {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+/* ============ minscreen ============= */
+
+@media (max-width: 400px) {
+  .left_container h1 {
+    font-size: 27px;
+  }
+  .right_sub h1,
+  .right_sub h2 {
+    font-size: 14px;
+  }
+  .right_sub p {
+    text-align: center;
+    font-size: 14px;
+  }
+  .image_right img {
+    height: 10rem;
+  }
+}

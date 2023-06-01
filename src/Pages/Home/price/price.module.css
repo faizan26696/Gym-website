@@ -1,0 +1,59 @@
+.main_container{
+    background: url("../../../component/images/pricing.jpg") no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+	padding-top: 50px;
+}
+.main_container > h1{
+    padding-bottom: 50px;
+}
+.main_container > h1,
+.main_container > h4{
+    text-align: center;
+}
+.main_container>h4{
+    color: rgba(128, 128, 128, 0.536);
+    font-size: 25px;
+}
+.main_container>h1{
+    font-weight: 900;
+    color: red;
+}
+.main_container>h1>span{
+    color: grey;
+    font-size: 40px;
+}
+.pricingmain{
+    display: flex;
+    width: 100%;
+}
+
+
+/*=========================Responsive section============================ */
+
+/*=========================Mobile view ============================ */
+
+@media(max-width:500px){
+    .main_container{
+        width: 100%;
+    }
+  .pricingmain{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+}
+/*=========================Tablet view ============================ */
+
+@media(max-width:900px){
+    .main_container{
+        width: 100%;
+    }
+    .pricingmain{
+        display: block;
+        width: 90%;
+        margin: auto;
+        padding-bottom: 20px;
+      }
+}
